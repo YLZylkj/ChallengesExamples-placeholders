@@ -1,0 +1,33 @@
+{
+    "title": "Using Katacoda Placeholders for dynamic content",
+    "description": "Learn how to get the IP address and URL parts for the environment",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "IP Addresses",
+                "text": "step1/text.md",
+                "verify": "step1/verify.sh"
+            },
+            {
+                "title": "URLs",
+                "text": "step2/text.md",
+                "verify": "step2/verify.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "alpine:latest",
+        "expose": 8080,
+        "layout": "",
+        "skins": "",
+        "tools": "idea | terminal | notebook",
+        "cpu": 1,
+        "memory": 1024
+    }
+}
